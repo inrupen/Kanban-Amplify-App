@@ -19,4 +19,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## Demo deployed to
 
-[Blog Demo](https://dev.d1kpln28f2wvk1.amplifyapp.com/)
+[Demo App](https://dev.d2c5lurc2esl9w.amplifyapp.com)
