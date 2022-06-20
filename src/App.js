@@ -1,20 +1,19 @@
 import { Main } from './components/Main';
-import { Board } from './components/Board';
-import Amplify, { API, graphqlOperation } from 'aws-amplify';
-
-import awsExports from './aws-exports';
+import { DndProvider } from 'react-dnd';
+import { HTML5Backend } from 'react-dnd-html5-backend';
 
 import './App.css';
-Amplify.configure(awsExports);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Kanban board</header>
-      <div className="App-content">
-        <Main />
+    <DndProvider backend={HTML5Backend}>
+      <div className="App">
+        <header className="App-header">Kanban board</header>
+        <div className="App-content">
+          <Main />
+        </div>
       </div>
-    </div>
+    </DndProvider>
   );
 }
 
