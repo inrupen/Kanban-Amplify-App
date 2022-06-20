@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kanban-dev-211004-authRole",
+      "UnauthRoleArn": "arn:aws:iam::011764611135:role/amplify-kanban-dev-211004-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::011764611135:role/amplify-kanban-dev-211004-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-kanban-dev-211004-deployment",
+      "UnauthRoleName": "amplify-kanban-dev-211004-unauthRole",
+      "StackName": "amplify-kanban-dev-211004",
+      "StackId": "arn:aws:cloudformation:eu-west-1:011764611135:stack/amplify-kanban-dev-211004/6d912680-f003-11ec-adad-02a6747694f7",
+      "AmplifyAppId": "d2c5lurc2esl9w"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2c5lurc2esl9w",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

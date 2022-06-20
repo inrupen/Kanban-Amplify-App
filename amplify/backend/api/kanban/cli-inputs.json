@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "kanban",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/nrupenabnave/Workspace/test/kanban-amplified/amplify/backend/api/kanban/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
