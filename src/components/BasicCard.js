@@ -33,6 +33,7 @@ const StyledButton = styled(Button)(({ theme }) => ({
 
 const StyledLabelButton = styled(Button)(({ theme }) => ({
   float: 'right',
+  cursor: 'none',
 }))
 
 const initialCardState = {
