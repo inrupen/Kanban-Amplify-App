@@ -1,8 +1,8 @@
-import { Main } from './components/Main';
-import { DndProvider } from 'react-dnd';
-import { HTML5Backend } from 'react-dnd-html5-backend';
+import { Main } from './components/Main'
+import { DndProvider } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend'
 
-import './App.css';
+import './App.css'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         </div>
       </div>
     </DndProvider>
-  );
+  )
 }
 
-export default App;
+export default App
